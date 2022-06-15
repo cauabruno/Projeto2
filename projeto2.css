@@ -1,61 +1,92 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+@font-face{
+    font-family: 'Passion One';
+    src: url("pacote-d012/Passion_One/PassionOne-Bold.ttf") format("truetype");   
+}
+
+:root{
+    --font1: 'Passion One', cursive;
+}
+
 body{
-    /*height: 100vh;*/
-    /*background-color: black;
-    background-image: url("imagens-cap19/wallpaper002.jpg");
-    background-repeat: repeat-y;
-    background-position: center center;
-    background-size: cover; 
-    background-attachment: fixed;*/
-    background: black url("imagens-cap19/wallpaper002.jpg") center center /cover no-repeat fixed;
+    margin: 0px;
 }
 
-section{
-    background: url("imagens-cap19/target001.png") center center /cover no-repeat fixed;
-    height: 150px;
-    width: 300px;
-    border: 1px solid black;
-    position: absolute;
-    top: 47%;
-    left: 42%;
-    transform: translate(-50%,-50%);
-}
-
-main{
-    background-color: white;
-    text-align: center justify;
-    width: 523px;
-    height: 1110px;
-    padding: 13px;
-    margin: auto;
-    margin-top: 30px;
-    border: 1px solid darkblue;
-    border-radius: 15px;
-}
-
-footer{
+header{
+    background: black;
     color: white;
     text-align: center;
+    padding: 45px;
+}
+
+header h1{
+    font: normal 136px var(--font1);
+    font-variant: small-caps;
+    margin: 40px;
+}
+
+header p{
+    font: normal 16px Verdana, Arial, sans-serif;
+    text-align: top;
+    margin-top: -38px;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main p{
+    font-family: "sriracha";
+    font-size: 47px;
+    line-height: 95.6px;
+    margin-left: 23px;
+    padding-bottom: 2em;
+}
+
+section#joaninha{
+    background: url("pacote-d012/imagens/background001.jpg") center center /cover no-repeat fixed;
     padding: 10px;
 }
 
-div.quadrado{   
-    background: lightgray;
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
-    display: inline-block;
+p#p2{
+    background: rgba(0, 0, 0, 0.514);
+    color: white;
+    width: 550px;
+    height: 675px;
+    padding: 5px;
 }
 
-div#q1{
-    background-color: skyblue;
+section#livros{
+    background: url("pacote-d012/imagens/background002.jpg") center center /cover no-repeat fixed;
+    padding: 10px;
 }
 
-div#q2{
-    background-image: linear-gradient(to bottom, yellow, red);
+p#p5{
+    background: rgba(0, 0, 0, 0.514);
+    color: white;
+    width: 575px;
+    height: 675px;
+    padding: 5px;
 }
 
-div#q3{
-    background-image: url("imagens-cap19/pattern003.png");
+footer{
+    background: black;
+    color: white; 
+    text-align: center;
+    padding: 8px; 
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0px;
 }
