@@ -22,7 +22,7 @@ header{
     background: black;
     color: white;
     text-align: center;
-    padding: 45px;
+    padding: 22px;
 }
 
 header h1{
@@ -64,6 +64,7 @@ section#joaninha{
 p#p2{
     background: rgba(0, 0, 0, 0.514);
     color: white;
+    text-shadow: 1px 1px 0px black;
     width: 11.7em;
     height: 14em;
     padding: 5px;
@@ -78,6 +79,7 @@ section#livros{
 p#p5{
     background: rgba(0, 0, 0, 0.514);
     color: white;
+    text-shadow: 1px 1px 0px black;
     width: 11.9em;
     height: 14em;
     padding: 5px;
