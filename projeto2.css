@@ -8,10 +8,13 @@
 }
 
 :root{
-    --font1: 'Passion One', cursive;
+    --font1: Verdana, Geneva, Tahoma, sans-serif; /*Msgs*/
+    --font2: 'Passion One', cursive; /*Título*/
+    --font3: 'Sriracha', cursive; /*Poema*/
 }
 
-body{
+html, body{
+    min-height: 100vh;
     margin: 0px;
 }
 
@@ -23,33 +26,33 @@ header{
 }
 
 header h1{
-    font: normal 136px var(--font1);
+    font: normal 10vw var(--font2);
     font-variant: small-caps;
     margin: 40px;
 }
 
 header p{
-    font: normal 16px Verdana, Arial, sans-serif;
+    font: normal 16px var(--font1);
     text-align: top;
     margin-top: -38px;
 }
 
-a{
+header a, footer a{
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
 }
 
-a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
 main p{
-    font-family: "sriracha";
-    font-size: 47px;
-    line-height: 95.6px;
-    margin-left: 23px;
-    padding-bottom: 2em;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+    line-height: 2em;
+    margin-left: 30px;
+    padding-bottom: 10vh;
 }
 
 section#joaninha{
@@ -60,8 +63,8 @@ section#joaninha{
 p#p2{
     background: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 550px;
-    height: 675px;
+    width: 11.7em;
+    height: 14em;
     padding: 5px;
 }
 
@@ -73,8 +76,8 @@ section#livros{
 p#p5{
     background: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 575px;
-    height: 675px;
+    width: 11.9em;
+    height: 14em;
     padding: 5px;
 }
 
@@ -86,7 +89,7 @@ footer{
 }
 
 footer p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font1);
     font-size: 16px;
     margin: 0px;
 }
