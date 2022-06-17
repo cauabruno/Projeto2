@@ -56,8 +56,9 @@ main p{
 }
 
 section#joaninha{
-    background: url("pacote-d012/imagens/background001.jpg") center center /cover no-repeat fixed;
-    padding: 10px;
+    background: url("pacote-d012/imagens/background001.jpg") center right /cover no-repeat fixed;
+    padding: 35px 0px 35px 1px;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 
 p#p2{
@@ -69,8 +70,9 @@ p#p2{
 }
 
 section#livros{
-    background: url("pacote-d012/imagens/background002.jpg") center center /cover no-repeat fixed;
-    padding: 10px;
+    background: url("pacote-d012/imagens/background002.jpg") center left /cover no-repeat fixed;
+    padding: 35px 0px 35px 1px;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
 }
 
 p#p5{
