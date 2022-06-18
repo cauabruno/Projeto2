@@ -52,6 +52,8 @@ main p{
     font-size: 3.5vw;
     line-height: 2em;
     margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
