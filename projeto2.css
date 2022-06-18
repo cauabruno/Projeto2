@@ -57,6 +57,10 @@ main p{
     padding-bottom: 10vh;
 }
 
+.conjunto{
+    padding-bottom: 0vh;
+}
+
 section#joaninha{
     background: url("pacote-d012/imagens/background001.jpg") center right /cover no-repeat fixed;
     padding: 35px 0px 35px 1px;
